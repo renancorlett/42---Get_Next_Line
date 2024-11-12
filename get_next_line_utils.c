@@ -78,7 +78,7 @@ char	*ft_strjoin(char *stash, char *buffer)
 	i = 0;
 	while (*stash && stash)
 		str[i++] = *stash++;
-	while (*buffer **buffer)
+	while (*buffer && buffer)
 		str[i++] = *buffer++;
 	str[i] = '\0';
 	free(original_stash);

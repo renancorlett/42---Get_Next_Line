@@ -96,6 +96,7 @@ char	*update_stash(char *stash)
 	if (!new_stash)
 		return (NULL);
 	i++;
+	j = 0;
 	while (stash[i])
 		new_stash[j++] = stash[i++];
 	new_stash[j] = '\0';
